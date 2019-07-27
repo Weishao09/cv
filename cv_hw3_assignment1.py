@@ -55,5 +55,7 @@ lr = 0.001
 max_iter = 10000
 train(x_list,y_list,50,lr,max_iter)
 
-
-#Assignment2 Logistic Regression in Python 
+#结果是展示w，b，loss的10000次梯度下降对应的值
+#lr取0.001 结果基本类似于
+#w:7.211457841066508, b:1.0867379971731062
+#loss is 0.2808228702398605
